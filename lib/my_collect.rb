@@ -12,7 +12,7 @@ def my_collect(array)
 end
 
 my_collect(array) do |name|
-   name.split(" ").first
+   name.split(" ").last
 end
     
 
