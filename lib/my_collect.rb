@@ -6,5 +6,11 @@ def my_collect(array)
     yield(array[i])
     
     i = i + 1 
+  end
+end
+
+my_collect(array) do |name|
+  name.split(" ").first
+end
     
 
