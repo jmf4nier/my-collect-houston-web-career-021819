@@ -10,7 +10,8 @@ def my_collect(array)
 end
 
 my_collect(array) do |name|
-  name.split(" ").first
+  new array = name.split(" ").first
+  new_array
 end
     
 
